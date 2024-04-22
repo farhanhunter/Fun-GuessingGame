@@ -1,6 +1,6 @@
 let maximum = parseInt(prompt("Inputkan nilai maksimal!"));
 while (!maximum) {
-  maximum = parseInt(prompt("Try again, inputkan nilai maksimak"));
+  maximum = parseInt(prompt("Try again, inputkan nilai maksimal!"));
 }
 
 const targetNum = Math.floor(Math.random() * maximum) + 1;
